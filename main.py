@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import cv2
 
-st.title("Streamlit + OpenCV Sample")
+st.title("AI変身ミラー(α)")
 
 img = np.zeros((500, 500, 3), np.uint8)
 cv2.rectangle(img, (100, 100), (400, 400), color=(255, 0, 0), thickness=-1)
